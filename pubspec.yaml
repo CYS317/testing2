@@ -1,0 +1,45 @@
+name: ai_based_focus_monitoring_for_exercise
+description: "AI-based Focus Monitoring App using TFLite Flutter for pose detection"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  tflite_flutter: ^0.12.1
+  video_player: ^2.10.1
+  video_thumbnail: ^0.5.6
+  image: ^3.0.1
+  path_provider: ^2.0.15
+  file_picker: ^10.3.6
+  google_mlkit_pose_detection: ^0.11.0
+  flutter_bloc: ^8.1.3
+  vector_math: ^2.1.4
+  sqflite: ^2.2.8+1
+  path: ^1.8.4
+  crypto: ^3.0.7
+  fl_chart: ^1.1.1
+  intl: ^0.18.1
+  google_fonts: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/authentication_background.png
+    - assets/images/cat-cow_pose.png
+    - assets/images/Lunge.png
+    - assets/images/Punch.png
+    - assets/images/image.jpg
